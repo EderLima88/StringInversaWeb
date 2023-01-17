@@ -10,14 +10,25 @@
 
 
 	<table border="2">
+		
+			
+		
+		
 		<thead>
-			<tr>
-				<td>Resultado da inverção da palavra: <%=request.getAttribute("palavra2")%></td>
-			</tr>
-		</thead>
+				<td>Palavra digitada: <%=request.getAttribute("palavra2")%></td>
+				<td>Resultados</td>
+	</thead>
+	
 		<tr>
+			<td>Inverção dos caracteres:</td>
 			<td><%=request.getAttribute("palavra")%></td>
 		</tr>
+		
+		<tr>
+			<td>Inversão da ordem das palavras</td>
+			<td><%=request.getAttribute("s")%></td>
+		</tr>
+		
 	</table>
 
 	<br>
