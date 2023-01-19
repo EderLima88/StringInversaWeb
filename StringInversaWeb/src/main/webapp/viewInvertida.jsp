@@ -8,16 +8,12 @@
 </head>
 <body>
 
-
 	<table border="2">
-		
-			
-		
 		
 		<thead>
 				<td>Palavra digitada: <%=request.getAttribute("palavra2")%></td>
 				<td>Resultados</td>
-	</thead>
+		</thead>
 	
 		<tr>
 			<td>Inverção dos caracteres:</td>
